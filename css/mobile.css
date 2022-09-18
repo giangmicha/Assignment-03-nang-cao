@@ -1,0 +1,29 @@
+@media (max-width: 768px) {
+  .content {
+    display: grid;
+    grid-template-areas:
+      "border border"
+      "content content"
+      "menu menu"
+      "left left"
+      "right right";
+    grid-template-columns: 1fr;
+  }
+  .content-con {
+    display: block;
+    /* gap: 50px; */
+  }
+  .icon {
+    padding-left: 50%;
+  }
+  .content-con-001,
+  .content-con-002,
+  .content-con-003,
+  .content-con-004 {
+    display: block;
+  }
+  .con-con {
+    width: 45px;
+    border-radius: 50%;
+  }
+}
